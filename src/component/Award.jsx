@@ -9,23 +9,23 @@ import Stimik from "../assets/images/stmik.png";
 function Award() {
   useEffect(() => {
     AOS.init({
-      duration: 1000, // Durasi animasi
-      once: true,     // Animasi hanya terjadi sekali saat pertama kali muncul
+      duration: 1000, 
+      once: true,    
     });
   }, []);
 
   return (
     <>
-      <section className="section__container experience__container" id="experience" data-aos="fade-down"
-        data-aos-easing="linear"
-        data-aos-duration="2000">
+      <section className="section__container experience__container" id="experience" >
         <h2>ACHIEVEMENT</h2>
         <ul className="experience__list">
-          <li>
-            <div className="experience__header">
+          <li data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="2000">
+            <div className="experience__header" >
               <div>
                 <img src={Wuri} alt="Wuri Handayani Logo" />
-                <h4>MEDALLION FOR EXCELLENCE Student Skills Competition (LKS) National Level in Web Technologies </h4>
+                <h4>Medallion Of Excelence in Student Skills Competition (LKS) National Level in Web Technologies Field </h4>
               </div>
               <p>25 Agustus 2024</p>
             </div>
@@ -33,11 +33,13 @@ function Award() {
               Creating API and frontend app for 4 hours accompanied by creating 2d game using javascript for 3 hours and conducting advanced javascript testing for 2 hours.
             </p>
           </li>
-          <li>
+          <li data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="2000">
             <div className="experience__header">
               <div>
                 <img src={Disdik} alt="Disdik Logo" />
-                <h4>1st Place Student Skills Competition (LKS) Central Kalimantan Province in Web Technologies</h4>
+                <h4>1st Place Student Skills Competition (LKS) Central Kalimantan Province in Web Technologies Field</h4>
               </div>
               <p>22 April 2024</p>
             </div>
@@ -45,11 +47,13 @@ function Award() {
               Create API and frontend app for 6 hours accompanied by creating a 2d game website using javascript canvas for 5 hours.
             </p>
           </li>
-          <li>
+          <li data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="2000">
             <div className="experience__header">
               <div>
                 <img src={Disdik} alt="Disdik Logo" />
-                <h4>1st Place Student Skills Competition (LKS) East Kotawaringin Regency in Web Technologies</h4>
+                <h4>1st Place Student Skills Competition (LKS) East Kotawaringin Regency in Web Technologies Field</h4>
               </div>
               <p>18 April 2024</p>
             </div>
@@ -57,11 +61,13 @@ function Award() {
               Create a website using laravel (blade) for 6 hours and conducting advanced javascript testing for 1 hours.
             </p>
           </li>
-          <li>
+          <li data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="2000">
             <div className="experience__header">
               <div>
                 <img src={Upr} alt="Upr Logo" />
-                <h4>1st Place in Informatics Engineering Software Development Fest by Palangkaraya University</h4>
+                <h4>1st Place in Informatics Engineering Software Development Festival By University of Palangkaraya</h4>
               </div>
               <p>19 Desember 2023</p>
             </div>
@@ -69,11 +75,13 @@ function Award() {
               Develop applications that have an impact on the surrounding community, especially children, with an application development period of one week.
             </p>
           </li>
-          <li>
+          <li data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="2000">
             <div className="experience__header">
               <div>
                 <img src={Wuri} alt="Wuri Handayani Logo" />
-                <h4>National Finalist Indonesian Student Innovation and Entrepreneur (FIKSI) in Digital Technologies</h4>
+                <h4>National Finalist Indonesian Student Innovation and Entrepreneur (FIKSI) in Digital Technology Field</h4>
               </div>
               <p>28 September 2023</p>
             </div>
@@ -81,7 +89,9 @@ function Award() {
               Developing a technology business that supports the achievement of Sustainable Development Goals (SDG)
             </p>
           </li>
-          <li>
+          <li data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="2000">
             <div className="experience__header">
               <div>
                 <img src={Stimik} alt="Stimik Logo" />
