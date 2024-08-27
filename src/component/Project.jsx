@@ -9,8 +9,8 @@ import Foodcare from "../assets/images/download.jpg";
 function Project() {
   useEffect(() => {
     AOS.init({
-      duration: 1000, // Durasi animasi
-      once: true,     // Animasi hanya terjadi sekali saat pertama kali muncul
+      duration: 1000, 
+      once: true,
     });
   }, []);
 
