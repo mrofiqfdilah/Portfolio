@@ -224,7 +224,7 @@ body {
 
 
 .project__container h2 {
-  margin-bottom: 4rem;
+  margin-bottom: 2.5rem;
   font-size: 2rem;
   font-weight: 700;
   background: linear-gradient(
@@ -334,7 +334,7 @@ body {
 }
 
 .experience__header {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
