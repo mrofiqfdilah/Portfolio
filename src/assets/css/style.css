@@ -418,18 +418,18 @@ footer {
   color: var(--white);
 }
 
+@media only screen and (max-width: 768px){
+  .avatar{
+    width: 150px;
+    margin-top: 30px;
+  }
+}
+
 @media (width > 768px) {
   nav {
     background-color: var(--primary-color);
   }
-
-  .header__container img {
-  max-width: 170px;
-  margin-inline: auto;
-  margin-bottom: 2rem;
-}
   
-
   .nav__bar {
     position: static;
     padding: 1.75rem 1rem;
