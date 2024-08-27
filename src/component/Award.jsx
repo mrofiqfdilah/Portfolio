@@ -25,7 +25,7 @@ function Award() {
             <div className="experience__header">
               <div>
                 <img src={Wuri} alt="Wuri Handayani Logo" />
-                <h4>National Finalist in Student Skills Competition (LKS) National Level in Web Technologies </h4>
+                <h4>MEDALLION FOR EXCELLENCE Student Skills Competition (LKS) National Level in Web Technologies </h4>
               </div>
               <p>25 Agustus 2024</p>
             </div>
