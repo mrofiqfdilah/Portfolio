@@ -224,7 +224,7 @@ body {
 
 
 .project__container h2 {
-  margin-bottom: 4rem;
+  margin-bottom: 2.5rem;
   font-size: 2rem;
   font-weight: 700;
   background: linear-gradient(
@@ -334,7 +334,7 @@ body {
 }
 
 .experience__header {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -418,11 +418,18 @@ footer {
   color: var(--white);
 }
 
+@media only screen and (max-width: 768px){
+  .avatar{
+    width: 150px;
+    margin-top: 30px;
+  }
+}
+
 @media (width > 768px) {
   nav {
     background-color: var(--primary-color);
   }
-
+  
   .nav__bar {
     position: static;
     padding: 1.75rem 1rem;

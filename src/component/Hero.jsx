@@ -13,7 +13,7 @@ function Hero()
       </p>
       <div class="header__btns">
         <button class="btn">Get in Touch</button>
-        <a href="#">Let's Connect</a>
+        <a href="https://www.linkedin.com/in/m-rofiq-fadilah-314bb42a6">Let's Connect</a>
       </div>
     </header>
         </>

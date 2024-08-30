@@ -21,10 +21,10 @@ function Footer()
             <a href="#"><i class="ri-twitter-x-fill"></i></a>
           </li>
           <li>
-            <a href="#"><i class="ri-instagram-fill"></i></a>
+            <a href="https://www.instagram.com/mrofiqfdilah"><i class="ri-instagram-fill"></i></a>
           </li>
           <li>
-            <a href="#"><i class="ri-github-fill"></i></a>
+            <a href="https://github.com/mrofiqfdilah"><i class="ri-github-fill"></i></a>
           </li>
         </ul>
       </div>

@@ -6,17 +6,14 @@ function Sidebar() {
   const navLinksRef = useRef(null);
   const menuBtnIconRef = useRef(null);
 
-  // Handle menu button click
   const handleMenuBtnClick = () => {
     setIsMenuOpen(prev => !prev);
   };
 
-  // Close the menu when clicking on navLinks
   const handleNavLinksClick = () => {
     setIsMenuOpen(false);
   };
 
-  // Update icon and navLinks class based on menu state
   useEffect(() => {
     const menuBtnIcon = menuBtnIconRef.current;
     const navLinks = navLinksRef.current;
