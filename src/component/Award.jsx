@@ -21,11 +21,7 @@ function Award() {
         <ul className="experience__list">
           <li data-aos="fade-down"
         data-aos-easing="linear"
-<<<<<<< HEAD
         data-aos-duration="1200">
-=======
-        data-aos-duration="2000">
->>>>>>> 53f0b7ee70aea07c788ffed1c63b7c1bbce8ecc2
             <div className="experience__header" >
               <div>
                 <img src={Wuri} alt="Wuri Handayani Logo" />
@@ -39,11 +35,8 @@ function Award() {
           </li>
           <li data-aos="fade-down"
         data-aos-easing="linear"
-<<<<<<< HEAD
-        data-aos-duration="1200">
-=======
-        data-aos-duration="2000">
->>>>>>> 53f0b7ee70aea07c788ffed1c63b7c1bbce8ecc2
+        data-aos-duration="1200" >
+
             <div className="experience__header">
               <div>
                 <img src={Disdik} alt="Disdik Logo" />
@@ -57,11 +50,7 @@ function Award() {
           </li>
           <li data-aos="fade-down"
         data-aos-easing="linear"
-<<<<<<< HEAD
-        data-aos-duration="1200">
-=======
-        data-aos-duration="2000">
->>>>>>> 53f0b7ee70aea07c788ffed1c63b7c1bbce8ecc2
+        data-aos-duration="1200" >
             <div className="experience__header">
               <div>
                 <img src={Disdik} alt="Disdik Logo" />
@@ -75,11 +64,7 @@ function Award() {
           </li>
           <li data-aos="fade-down"
         data-aos-easing="linear"
-<<<<<<< HEAD
         data-aos-duration="1200">
-=======
-        data-aos-duration="2000">
->>>>>>> 53f0b7ee70aea07c788ffed1c63b7c1bbce8ecc2
             <div className="experience__header">
               <div>
                 <img src={Upr} alt="Upr Logo" />
@@ -93,11 +78,7 @@ function Award() {
           </li>
           <li data-aos="fade-down"
         data-aos-easing="linear"
-<<<<<<< HEAD
-        data-aos-duration="1200">
-=======
-        data-aos-duration="2000">
->>>>>>> 53f0b7ee70aea07c788ffed1c63b7c1bbce8ecc2
+        data-aos-duration="1200" >
             <div className="experience__header">
               <div>
                 <img src={Wuri} alt="Wuri Handayani Logo" />
@@ -111,7 +92,6 @@ function Award() {
           </li>
           <li data-aos="fade-down"
         data-aos-easing="linear"
-<<<<<<< HEAD
         data-aos-duration="1200">
             <div className="experience__header">
               <div>
@@ -127,9 +107,6 @@ function Award() {
           <li data-aos="fade-down"
         data-aos-easing="linear"
         data-aos-duration="1200">
-=======
-        data-aos-duration="2000">
->>>>>>> 53f0b7ee70aea07c788ffed1c63b7c1bbce8ecc2
             <div className="experience__header">
               <div>
                 <img src={Stimik} alt="Stimik Logo" />
