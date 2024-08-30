@@ -21,7 +21,7 @@ function Project() {
 
     setTimeout(() => {
       setIsLoading(false);
-    }, 2000); 
+    }, 5000); 
   }, []);
 
   const projects = [
