@@ -8,7 +8,7 @@ function Tech()
       <h2>Technologies</h2>
       <ul class="skill__flex">   
       <li>
-        <span><i class="ri-nodejs-fill"></i></span>
+        <span><i class="ri-javascript-fill"></i></span>
       </li>
     
         <li>
