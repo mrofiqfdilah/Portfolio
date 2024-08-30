@@ -15,7 +15,11 @@ function Project() {
 
   useEffect(() => {
     AOS.init({
+<<<<<<< HEAD
       duration: 1000,
+=======
+      duration: 1000, 
+>>>>>>> 53f0b7ee70aea07c788ffed1c63b7c1bbce8ecc2
       once: true,
     });
 
