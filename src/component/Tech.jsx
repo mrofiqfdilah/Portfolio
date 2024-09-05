@@ -14,6 +14,9 @@ function Tech()
         <li>
           <span><i class="ri-tailwind-css-fill"></i></span>
         </li>
+           <li>
+          <span><i class="ri-javascript-fill"></i></span>
+        </li>
         <li>
           <span><i class="fab fa-laravel"></i></span>
         </li>
