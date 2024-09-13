@@ -19,6 +19,12 @@ function Project() {
       duration: 1000,
       once: true,
     });
+
+
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 5000); 
+
   }, []);
 
   const projects = [
