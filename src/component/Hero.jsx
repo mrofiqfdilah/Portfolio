@@ -7,7 +7,7 @@ function Hero()
         <>
         <header class="section__container header__container" id="home">
       <img src={Avatar} alt="header" class="avatar" />
-      <h1>M Rofiq Fadilah<br /><span>Web Developer</span></h1>
+      <h1>M Rofiq Fadilah<br /><span>Fullstack Developer</span></h1>
       <p>
         I enjoy applying problem-solving techniques to technology products, which led me to pursue a career as a full-stack developer.
       </p>

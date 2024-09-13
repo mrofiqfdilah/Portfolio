@@ -142,7 +142,7 @@ body {
   background-image: var(--gradient-1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .header__container p {

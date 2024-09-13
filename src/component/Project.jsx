@@ -12,20 +12,13 @@ import Wella from "../assets/images/wella.jpg";
 
 function Project() {
   const [isLoading, setIsLoading] = useState(true);
+  const [loadedImages, setLoadedImages] = useState(0);
 
   useEffect(() => {
     AOS.init({
-<<<<<<< HEAD
       duration: 1000,
-=======
-      duration: 1000, 
->>>>>>> 53f0b7ee70aea07c788ffed1c63b7c1bbce8ecc2
       once: true,
     });
-
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 2000); 
   }, []);
 
   const projects = [
@@ -33,9 +26,20 @@ function Project() {
     { src: Ppdb, title: "Registration vocational school students", type: "Website" },
     { src: Mlb, title: "GM Energy Landing Page", type: "Website" },
     { src: Foodcare, title: "Foodcare : With Food We Care", type: "Website" },
-    { src: Spotify, title: "Spotify Clone", type: "Website" },
+    { src: Spotify, title: "Instagram Clone ", type: "Website" },
     { src: Wella, title: "Wella&co : Hotel Booking", type: "Website" },
   ];
+
+  const handleImageLoad = () => {
+    setLoadedImages((prevLoadedImages) => prevLoadedImages + 1);
+  };
+
+  // Jika semua gambar sudah dimuat, set isLoading menjadi false
+  useEffect(() => {
+    if (loadedImages === projects.length) {
+      setIsLoading(false);
+    }
+  }, [loadedImages, projects.length]);
 
   return (
     <>
@@ -59,10 +63,18 @@ function Project() {
                 data-aos-easing="linear"
                 data-aos-duration="1200"
               >
+                {/* Gambar dimuat di latar belakang untuk memastikan isLoading bisa berubah */}
+                <img
+                  src={project.src}
+                  alt="project"
+                  onLoad={handleImageLoad}
+                  style={{ display: "none" }} // Gambar disembunyikan saat loading
+                />
+
                 {isLoading ? (
                   <Skeleton height={200} width={320} style={{ borderRadius: "10px" }} />
                 ) : (
-                  <img src={project.src} alt="project" />
+                  <img src={project.src} alt="project" /> // Gambar yang akan tampil
                 )}
                 <div className="project__card__details">
                   <div>
