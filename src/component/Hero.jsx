@@ -9,7 +9,7 @@ function Hero()
       <img src={Avatar} alt="header" class="avatar" />
       <h1>M Rofiq Fadilah<br /><span>Fullstack Developer</span></h1>
       <p>
-        I enjoy applying problem-solving techniques to technology products, which led me to pursue a career as a full-stack developer.
+        I enjoy applying problem solving techniques to technology products,which led me to pursue a career as a fullstack developer.
       </p>
       <div class="header__btns">
         <button class="btn">Get in Touch</button>
