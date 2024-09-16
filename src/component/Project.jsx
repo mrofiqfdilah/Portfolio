@@ -20,11 +20,9 @@ function Project() {
       once: true,
     });
 
-
     setTimeout(() => {
       setIsLoading(false);
-    }, 5000); 
-
+    }, 5000); // Simulasi loading selama 5 detik
   }, []);
 
   const projects = [
@@ -32,7 +30,7 @@ function Project() {
     { src: Ppdb, title: "Registration vocational school students", type: "Website" },
     { src: Mlb, title: "GM Energy Landing Page", type: "Website" },
     { src: Foodcare, title: "Foodcare : With Food We Care", type: "Website" },
-    { src: Spotify, title: "Instagram Clone ", type: "Website" },
+    { src: Spotify, title: "Instagram Clone", type: "Website" },
     { src: Wella, title: "Wella&co : Hotel Booking", type: "Website" },
   ];
 
@@ -65,9 +63,15 @@ function Project() {
               <div
                 className="project__card"
                 key={index}
-                data-aos="fade-down"
+                data-aos={
+                  project.title === "SIEkskul : Information System"
+                    ? "fade-right"
+                    : project.title === "Registration vocational school students"
+                    ? "fade-left"
+                    : "fade-left"
+                }
                 data-aos-easing="linear"
-                data-aos-duration="1200"
+                data-aos-duration="1000"
               >
                 {/* Gambar dimuat di latar belakang untuk memastikan isLoading bisa berubah */}
                 <img
