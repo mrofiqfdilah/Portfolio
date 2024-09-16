@@ -16,13 +16,14 @@ function Project() {
 
   useEffect(() => {
     AOS.init({
-      duration: 1000,
+      duration: 1000, // Tambahkan durasi lebih panjang untuk smoothness
+      easing: "ease-out-cubic", // Gaya easing lebih smooth
       once: true,
     });
 
     setTimeout(() => {
       setIsLoading(false);
-    }, 5000); // Simulasi loading selama 5 detik
+    }, 5000);
   }, []);
 
   const projects = [
@@ -30,7 +31,7 @@ function Project() {
     { src: Ppdb, title: "Registration vocational school students", type: "Website" },
     { src: Mlb, title: "GM Energy Landing Page", type: "Website" },
     { src: Foodcare, title: "Foodcare : With Food We Care", type: "Website" },
-    { src: Spotify, title: "Instagram Clone", type: "Website" },
+    { src: Spotify, title: "Instagram Clone ", type: "Website" },
     { src: Wella, title: "Wella&co : Hotel Booking", type: "Website" },
   ];
 
@@ -38,7 +39,6 @@ function Project() {
     setLoadedImages((prevLoadedImages) => prevLoadedImages + 1);
   };
 
-  // Jika semua gambar sudah dimuat, set isLoading menjadi false
   useEffect(() => {
     if (loadedImages === projects.length) {
       setIsLoading(false);
@@ -55,23 +55,17 @@ function Project() {
           <h2>PROJECTS</h2>
           <div
             className="project__grid"
-            data-aos="fade-down"
-            data-aos-easing="linear"
+            data-aos="fade-left"
+            data-aos-easing="ease-in-out"
             data-aos-duration="1200"
           >
             {projects.map((project, index) => (
               <div
-                className="project__card"
+                className="project__card aos-item"
                 key={index}
-                data-aos={
-                  project.title === "SIEkskul : Information System"
-                    ? "fade-right"
-                    : project.title === "Registration vocational school students"
-                    ? "fade-left"
-                    : "fade-left"
-                }
-                data-aos-easing="linear"
-                data-aos-duration="1000"
+                data-aos="fade-left"
+                data-aos-easing="ease-in-out"
+                data-aos-duration="1200"
               >
                 {/* Gambar dimuat di latar belakang untuk memastikan isLoading bisa berubah */}
                 <img
@@ -84,7 +78,7 @@ function Project() {
                 {isLoading ? (
                   <Skeleton height={200} width={320} style={{ borderRadius: "10px" }} />
                 ) : (
-                  <img src={project.src} alt="project" /> // Gambar yang akan tampil
+                  <img src={project.src} alt="project" className="project-image" />
                 )}
                 <div className="project__card__details">
                   <div>
