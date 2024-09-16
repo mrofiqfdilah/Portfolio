@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"; // Pastikan useEffect diimpor
+import React, { useEffect } from "react";
 import Disdik from "../assets/images/Logodisdik24.png";
 import Wuri from "../assets/images/tutwuri.png";
 import AOS from "aos";
@@ -9,23 +9,27 @@ import Stimik from "../assets/images/stmik.png";
 function Award() {
   useEffect(() => {
     AOS.init({
-      duration: 1000, 
-      once: true,    
+      duration: 1000,  // Durasi animasi
+      easing: "ease-in-out",  // Efek easing untuk transisi yang halus
+      once: true,  // Animasi hanya terjadi sekali saat di-scroll
     });
   }, []);
 
   return (
     <>
-      <section className="section__container experience__container" id="experience" >
+      <section className="section__container experience__container" id="experience">
         <h2>ACHIEVEMENT</h2>
         <ul className="experience__list">
-          <li data-aos="fade-down"
-        data-aos-easing="linear"
-        data-aos-duration="600">
-            <div className="experience__header" >
+          <li
+            data-aos="fade-right"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="1200"
+            data-aos-delay="100"
+          >
+            <div className="experience__header">
               <div>
                 <img src={Wuri} alt="Wuri Handayani Logo" />
-                <h4>Medallion Of Excelence in Student Skills Competition (LKS) National Level in Web Technologies Field </h4>
+                <h4>Medallion Of Excelence in Student Skills Competition (LKS) National Level in Web Technologies Field</h4>
               </div>
               <p>25 Agustus 2024</p>
             </div>
@@ -33,10 +37,13 @@ function Award() {
               Creating API and frontend app for 4 hours accompanied by creating 2d game using javascript for 3 hours and conducting advanced javascript testing for 2 hours.
             </p>
           </li>
-          <li data-aos="fade-down"
-        data-aos-easing="linear"
-        data-aos-duration="600" >
-
+          
+          <li
+            data-aos="fade-left"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="1200"
+            data-aos-delay="200"
+          >
             <div className="experience__header">
               <div>
                 <img src={Disdik} alt="Disdik Logo" />
@@ -48,9 +55,13 @@ function Award() {
               Create API and frontend app for 6 hours accompanied by creating a 2d game website using javascript canvas for 5 hours.
             </p>
           </li>
-          <li data-aos="fade-down"
-        data-aos-easing="linear"
-        data-aos-duration="600" >
+
+          <li
+            data-aos="fade-right"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="1200"
+            data-aos-delay="300"
+          >
             <div className="experience__header">
               <div>
                 <img src={Disdik} alt="Disdik Logo" />
@@ -59,12 +70,16 @@ function Award() {
               <p>18 April 2024</p>
             </div>
             <p>
-              Create a website using laravel (blade) for 6 hours and conducting advanced javascript testing for 1 hours.
+              Create a website using Laravel (blade) for 6 hours and conducting advanced javascript testing for 1 hour.
             </p>
           </li>
-          <li data-aos="fade-down"
-        data-aos-easing="linear"
-        data-aos-duration="600">
+
+          <li
+            data-aos="fade-left"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="1200"
+            data-aos-delay="400"
+          >
             <div className="experience__header">
               <div>
                 <img src={Upr} alt="Upr Logo" />
@@ -76,9 +91,13 @@ function Award() {
               Develop applications that have an impact on the surrounding community, especially children, with an application development period of one week.
             </p>
           </li>
-          <li data-aos="fade-down"
-        data-aos-easing="linear"
-        data-aos-duration="600" >
+
+          <li
+            data-aos="fade-right"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="1200"
+            data-aos-delay="500"
+          >
             <div className="experience__header">
               <div>
                 <img src={Wuri} alt="Wuri Handayani Logo" />
@@ -87,26 +106,16 @@ function Award() {
               <p>28 September 2023</p>
             </div>
             <p>
-              Developing a technology business that supports the achievement of Sustainable Development Goals (SDG)
+              Developing a technology business that supports the achievement of Sustainable Development Goals (SDG).
             </p>
           </li>
-          <li data-aos="fade-down"
-        data-aos-easing="linear"
-        data-aos-duration="600">
-            <div className="experience__header">
-              <div>
-                <img src={Disdik} alt="Disdik Logo" />
-                <h4>2nd Place Student Skills Competition (LKS) Central Kalimantan Province in Web Technologies Field</h4>
-              </div>
-              <p>22 September 2023</p>
-            </div>
-            <p>
-              Create API and frontend app for 6 hours accompanied by creating a 2d game website using javascript canvas for 5 hours.
-            </p>
-          </li>
-          <li data-aos="fade-down"
-        data-aos-easing="linear"
-        data-aos-duration="600">
+
+          <li
+            data-aos="fade-left"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="1200"
+            data-aos-delay="600"
+          >
             <div className="experience__header">
               <div>
                 <img src={Stimik} alt="Stimik Logo" />
