@@ -142,8 +142,28 @@ body {
   background-image: var(--gradient-1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
 }
+
+.aos-item {
+  opacity: 0;
+  transform: translateX(-50px);
+  filter: blur(5px);
+  transition: opacity 1.2s ease-out, transform 1.2s ease-out, filter 0.6s ease-out;
+}
+
+.aos-item.aos-animate {
+  opacity: 1;
+  transform: translateX(0);
+  filter: blur(0); /* Blur dihilangkan saat animasi selesai */
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
 
 .header__container p {
   margin-bottom: 2rem;
