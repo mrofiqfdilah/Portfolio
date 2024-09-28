@@ -21,10 +21,7 @@ function Award() {
         <h2>ACHIEVEMENT</h2>
         <ul className="experience__list">
           <li
-            data-aos="fade-right"
-            data-aos-easing="ease-in-out"
-            data-aos-duration="1200"
-            data-aos-delay="100"
+           
           >
             <div className="experience__header">
               <div>
@@ -39,10 +36,7 @@ function Award() {
           </li>
           
           <li
-            data-aos="fade-left"
-            data-aos-easing="ease-in-out"
-            data-aos-duration="1200"
-            data-aos-delay="200"
+           
           >
             <div className="experience__header">
               <div>
@@ -57,10 +51,7 @@ function Award() {
           </li>
 
           <li
-            data-aos="fade-right"
-            data-aos-easing="ease-in-out"
-            data-aos-duration="1200"
-            data-aos-delay="300"
+            
           >
             <div className="experience__header">
               <div>
@@ -75,10 +66,7 @@ function Award() {
           </li>
 
           <li
-            data-aos="fade-left"
-            data-aos-easing="ease-in-out"
-            data-aos-duration="1200"
-            data-aos-delay="400"
+           
           >
             <div className="experience__header">
               <div>
@@ -93,10 +81,7 @@ function Award() {
           </li>
 
           <li
-            data-aos="fade-right"
-            data-aos-easing="ease-in-out"
-            data-aos-duration="1200"
-            data-aos-delay="500"
+           
           >
             <div className="experience__header">
               <div>
@@ -111,10 +96,7 @@ function Award() {
           </li>
 
           <li
-            data-aos="fade-left"
-            data-aos-easing="ease-in-out"
-            data-aos-duration="1200"
-            data-aos-delay="600"
+           
           >
             <div className="experience__header">
               <div>
